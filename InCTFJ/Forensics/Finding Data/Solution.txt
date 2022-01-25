@@ -1,0 +1,27 @@
+Let's go step by step:
+
+Download the challenge attachment, LOL 🤣
+
+Use exiftool on the image - $ exiftool </path/to/image>
+
+Notice the comment which you see, keep it in mind :)
+
+Now use binwalk to extract the files hidden in the image - $ binwalk -e </path/to/image>
+
+Now, when you see the files in the directory, you will see another extracted folder.
+
+Open the folder, you will see its contents.
+
+If you open flag.txt, you will see that the file is empty. So let's focus on the 9CB0.zip file.
+
+Now if we try to unzip it, it will ask for a password.
+
+Now, remember the comment which we got when we used exiftool on the image ??
+
+Use that as the password.
+
+Now it will ask to replace flag.txt, allow it to replace.
+
+Now, just open the new flag.txt and you will get the flag :)
+
+Thanks for reading :)
