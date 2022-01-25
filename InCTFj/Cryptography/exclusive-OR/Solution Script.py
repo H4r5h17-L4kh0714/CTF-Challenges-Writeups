@@ -1,5 +1,3 @@
-From the challenge description, we know that the flag length is 25.
-
 ```python
 from pwn import xor
 ct = bytes.fromhex(
