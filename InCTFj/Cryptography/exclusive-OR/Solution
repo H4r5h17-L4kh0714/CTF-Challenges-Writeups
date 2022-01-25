@@ -1,0 +1,13 @@
+Analysis:
+From the challenge description, we know that the flag length is 25.
+And from the attachments we have the cipher in output.txt and the encryption code in chall2_3f321844-aa2d-4b6a-82b4-d2a5ddb61d5b.py.
+From the encryption code, we can figure out that the plaintext is divided into blocks of length 16.
+Each block is XORed with a random single byte.
+The random single byte is in the range of 256.
+
+Solution:
+So, we can convert the given hexstring to bytes and then seperate them into blocks of 16 bytes each.
+
+Then bruteforce the single byte used for every block and check if the flag format exists in the plaintext.
+
+Refer the script from Solution Script.py
