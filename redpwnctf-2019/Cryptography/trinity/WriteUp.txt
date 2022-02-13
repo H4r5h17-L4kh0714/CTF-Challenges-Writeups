@@ -1,0 +1,4 @@
+The encryption script is first encoding the flag with morse code, then it is substituting the dots and dashes with numbers.
+We have to reverse the dictionaries and then use them in the functions and reverse the order of the functions to get the flag. 
+You can use Solution Script.py for solving it.
+This will give you the flag: ternaryismorearcanebutibetyouthoughtofitfirst
