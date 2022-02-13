@@ -1,4 +1,4 @@
 DESCRIPTION: redpwn claims to have invented an unbreakable "trinity encoding." Security by obscurity!
              NB: This challenge does not use the flag{...} format. The flag is only lowercase letters.
 Attachments: ct.txt & encode.py
-flag: 
+flag: ternaryismorearcanebutibetyouthoughtofitfirst
